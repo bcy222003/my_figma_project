@@ -1,0 +1,141 @@
+body {
+    background-color: #fff6d5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff6d5;
+    border-color: #ccc;
+    border: 2px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  
+  
+  .logo-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* spacing between image and text */
+  }
+  
+  .logo-info img {
+    width: 100px; /* adjust size as needed */
+    height: 80px;
+    
+  }
+  
+  .info p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    background-color: rgb(255, 168, 6);
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  .ref {
+    font-size: 14px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  
+  .section {
+    background-color: orange;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-left: 5px solid darkorange;
+  }
+  
+  .form-group {
+    margin-top: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+  }
+  
+  .gender {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-top: 20px;
+  }
+  
+  .checkbox .terms {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  
+  
+  .icons .like {
+    color: green;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .icons .dislike {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  
+  
+  .signature {
+    margin-top: 30px;
+  }
+  
+  .sign-box {
+    height: 80px;
+    border: 1px solid #faf5f5;
+    background-color: rgb(246, 246, 140);
+    margin-top: 10px;
+    width:300px;
+  }
